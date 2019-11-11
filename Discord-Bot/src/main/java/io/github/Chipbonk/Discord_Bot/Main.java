@@ -11,7 +11,7 @@ import sx.blah.discord.util.DiscordException;
 
 public class Main {
 	
-	public static final IDiscordClient bot = MainRunner.createClient("NTA0NDI1MzYxMzcxODI0MTY0.Drt2vg.zZ-6cQzac5c5vUSJ1TiEQiC7AGc", true);
+	public static final IDiscordClient bot = MainRunner.createClient("*removed bot token*", true);
 	
 	public static void main(String[] event) {
 		bot.getDispatcher().registerListener(new CommandHandler());
@@ -31,7 +31,7 @@ public class Main {
 		}*/
 		
 	}
-	//public static final IDiscordClient bot = MainRunner.createClient("NTA0NDI1MzYxMzcxODI0MTY0.Drt2vg.zZ-6cQzac5c5vUSJ1TiEQiC7AGc", true);
+	//public static final IDiscordClient bot = MainRunner.createClient("*removed bot token*", true);
 		
 	
 	public static final String BOT_PREFIX = "■";
@@ -52,7 +52,7 @@ public class Main {
 			}
 		}
 		else {
-			bot.checkReady("NTA0NDI1MzYxMzcxODI0MTY0.Drt2vg.zZ-6cQzac5c5vUSJ1TiEQiC7AGc");
+			bot.checkReady("*removed bot token*");
 		}
 
 	}*/
